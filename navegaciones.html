@@ -6,30 +6,60 @@
   <title>Button</title>
 </head>
 <style>
-  .wrapper {
-    border: 1px dashed plum;
-    height: calc(100vh - 16px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  body {
+    overflow: hidden;
+    margin: 25px;
   }
+
+  .border-container {
+    border: 2px dashed mediumslateblue;
+    height: calc(100vh - 50px);
+  }
+
+  .wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
 </style>
 <body>
-  <div class="wrapper">
-    <nav>
-      <ul>
-        <li>Logo</li>
-        <li>Informacion</li>
-        <li>Contacto</li>
-      </ul>
-    </nav>
-    <nav>
-      <ul>
-        <li>Acerca de nosotros</li>
-        <li>perfil</li>
-        <li>notificaciones</li>
-      </ul>
-    </nav>
+  <div class="border-container">
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li>
+            <a href="">Logo</a>
+          </li>
+          <li>
+            <a href="">Informacion</a>
+          </li>
+          <li>
+            <a href="">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="">Acerca de nosotros</a>
+          </li>
+          <li>
+            <a href="">perfil</a>
+          </li>
+          <li>
+            <a href="">notificaciones</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </body>
 </html>
